@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+
+}
+.header {
+    height: 5em;
+    padding: 4em;
+    font-size: 2em;
+    background-image: url("../imgs/logo.jpg");
+    background-size: cover;
+    background-position: center;
+  
+}
+h1{
+    margin: 0px;
+  font-weight: 400;
+}
+.products{
+    width: 80%;
+    margin: auto;
+}
+.products td{
+    width: 30%;
+    padding:1em;
+}
+
+.products img{
+    width: 60%;
+    border: solid 1px white;
+    border-radius: 32px 32px 32px 32px;
+-webkit-border-radius: 32px 32px 32px 32px;
+-moz-border-radius: 32px 32px 32px 32px;
+
+box-shadow: -31px 22px 17px -4px rgba(176,176,176,0.75);
+-webkit-box-shadow: -31px 22px 17px -4px rgba(176,176,176,0.75);
+-moz-box-shadow: -31px 22px 17px -4px rgba(176,176,176,0.75);
+}
+.footer{
+    height: 5em;
+line-height: 3em;
+background-color:honeydew;
+color: black;
+text-align: center;
+font-weight: 900;
+}
